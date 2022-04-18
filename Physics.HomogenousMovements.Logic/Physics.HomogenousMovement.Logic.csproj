@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Physics.HomogenousMovement.Logic</AssemblyName>
+    <RootNamespace>Physics.HomogenousMovement.Logic</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross.Plugin.Visibility"  />
+    <PackageReference Include="PropertyChanged.Fody" />
+    <PackageReference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Physics.Shared.Logic\Physics.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
